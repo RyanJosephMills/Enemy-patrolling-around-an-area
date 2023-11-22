@@ -2,6 +2,7 @@
 
 So, the first thing you must do to create an enemy patrol is create the two boundaries where the enemy can walk. To do this, you must create an empty object and call it patrol point 1, then click on the cube just above the transform section; these are called Gizmos. Once in there, choose a gizmo that you like, and what this will do is it will make the patrol points easy to see and easy to place around the map. After that, you can duplicate them and put them wherever you want the enemy character to walk from and to.
 
+
 Now that you have done that, you will need to start scripting to get the enemy to move around, so you will need to make a script called EnemyMovement and then open it up.
 
 Once you are inside the script, you will need to create some variables. The first one is a public Transform, and this will help us figure out which direction the enemy is heading in. Then you need to put [] patrolPoints as the name, and now you can go back inside of Unity and attach this script to the enemy, and now you can see inside of the inspector something called Patrol points. You will notice that these points are empty, so you must put in the patrol points we made earlier.
